@@ -19,8 +19,8 @@ create_footer <- function (source_name, logo_image_path) {
   #Make the footer
   footer <- grid::grobTree(grid::linesGrob(x = grid::unit(c(0, 1), "npc"), y = grid::unit(1.1, "npc")),
                            grid::textGrob(source_name,
-                                          x = 0.004, hjust = 0, gp = grid::gpar(fontsize=16)),
-                           grid::rasterGrob(png::readPNG(logo_image_path), x = 0.944))
+                                          x = 0.001, hjust = 0, gp = grid::gpar(fontsize=8)),
+                           grid::rasterGrob(png::readPNG(logo_image_path), x = 0.92))
   return(footer)
 
 }
