@@ -10,7 +10,7 @@
 #' bbc_style()
 
 bbc_style <- function() {
-  font <- "Verdana"
+  font <- "Helvetica"
 
   ggplot2::theme(
 
