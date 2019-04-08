@@ -17,7 +17,7 @@ bbc_style <- function() {
   #Text format:
   #This sets the font, size, type and colour of text for the chart's title
   plot.title = ggplot2::element_text(family=font,
-                            size=26,
+                            size=16,
                             face="bold",
                             color="#222222"),
   #This sets the font, size, type and colour of text for the chart's subtitle, as well as setting a margin between the title and the subtitle
