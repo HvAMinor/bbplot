@@ -10,7 +10,7 @@
 #' bbc_style()
 
 bbc_style <- function() {
-  font <- "Calibri"
+  font <- "Arial"
 
   ggplot2::theme(
 
