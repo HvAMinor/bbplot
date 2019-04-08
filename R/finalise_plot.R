@@ -64,7 +64,7 @@ finalise_plot <- function(plot_name,
                                  ncol = 1, nrow = 2,
                                  heights = c(1, 0.9/(height_pixels/450)))
   ## print(paste("Saving to", save_filepath))
-  save_plot(plot_grid, width_pixels, height_pixels, save_filepath)
+  #save_plot(plot_grid, width_pixels, height_pixels, save_filepath)
   ## Return (invisibly) a copy of the graph. Can be assigned to a
   ## variable or silently ignored.
   invisible(plot_grid)
