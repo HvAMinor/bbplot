@@ -22,7 +22,7 @@ bbc_style <- function() {
                             color="#222222"),
   #This sets the font, size, type and colour of text for the chart's subtitle, as well as setting a margin between the title and the subtitle
   plot.subtitle = ggplot2::element_text(family=font,
-                               size=20,
+                               size=12,
                                margin=ggplot2::margin(0,0,0,0)),
   plot.caption = ggplot2::element_blank(),
   #This leaves the caption text element empty, because it is set elsewhere in the finalise plot function
@@ -35,7 +35,7 @@ bbc_style <- function() {
   legend.title = ggplot2::element_blank(),
   legend.key = ggplot2::element_blank(),
   legend.text = ggplot2::element_text(family=font,
-                             size=16,
+                             size=12,
                              color="#222222"),
 
   #Axis format
