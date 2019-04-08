@@ -10,7 +10,7 @@
 #' bbc_style()
 
 bbc_style <- function() {
-  font <- "TImes"
+  font <- "Verdana"
 
   ggplot2::theme(
 
